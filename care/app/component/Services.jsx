@@ -47,7 +47,7 @@ const Services = () => {
   return (
     <section className="py-16 px-6 bg-[#F8F8F8] overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col items-center">
-        <h2 className="text-3xl font-bold mb-10 text-center text-[#362d7e]">
+        <h2 className="text-3xl font-medium mb-5 text-center text-[#362d7e]">
           Top Medical Billing Services by CareBridge MDs
         </h2>
         <p className="text-zinc-900 mb-2 text-center max-w-3xl">
