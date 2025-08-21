@@ -2,6 +2,7 @@
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
+import { CiMail } from "react-icons/ci";
 
 const Footer = () => {
   return (
@@ -54,24 +55,14 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
           <ul className="space-y-3 text-lg">
             <li className="flex items-start gap-2">
-              <MdEmail className="mt-1 text-lg" /> carebridgemd580@gmail.com
+              <CiMail className="mt-1 text-lg" /> carebridgemd580@gmail.com
             </li>
             <li className="flex items-start gap-2">
               <MdPhone className="mt-1 text-lg" /> +923480114527
             </li>
-            <li>
-              <strong>New York Office</strong>
-              <p className="flex items-start gap-2">
-                <MdLocationOn className="mt-1 text-lg" />
-                Taxas USA
-              </p>
-            </li>
-            <li>
-              <strong>Texas Office</strong>
-              <p className="flex items-start gap-2">
-                <MdLocationOn className="mt-1 text-lg" />
-                Taxas USA
-              </p>
+            <li className="flex items-start gap-2">
+              <MdLocationOn className="mt-1 text-lg" />
+              Texas USA
             </li>
           </ul>
         </div>

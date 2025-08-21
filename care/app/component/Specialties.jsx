@@ -38,7 +38,7 @@ export default function Specialties() {
         Expert Billing Services
       </h2>
       <p className="text-gray-600 max-w-2xl mx-auto mb-12">
-        Transcure delivers comprehensive medical billing services for a broad
+        CareBridge delivers comprehensive medical billing services for a broad
         spectrum of specialties, ranging from primary care to surgical centers,
         with a focus on small and mid-sized practices.
       </p>
