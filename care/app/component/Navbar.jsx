@@ -10,15 +10,16 @@ import {
 import Link from "next/link";
 
 const services = [
-  "Medical Billing and Coding",
-  "Medical Credentialing",
-  "Virtual Assistance",
-  "Digital Marketing",
-  "Eligibility Verification",
-  "Prior Authorization",
-  "Revenue Cycle Management (RCM)",
-  "Accounts Receivable (AR) Management",
-  "Denial management",
+  { title: "Medical Billing", path: "medical-billing" },
+  { title: "Medical Coding", path: "medical-coding" },
+  { title: "Medical Credentialing", path: "medical-credentialing" },
+  { title: "Virtual Assistance", path: "virtual-assistance" },
+  { title: "Digital Marketing", path: "digital-marketing" },
+  { title: "Eligibility Verification", path: "eligibility-verification" },
+  { title: "Prior Authorization", path: "prior-authorization" },
+  { title: "Revenue Cycle Management (RCM)", path: "revenue-cycle-management" },
+
+  { title: "Denial Management", path: "denial-management" },
 ];
 
 const Navbar = () => {
@@ -69,32 +70,26 @@ const Navbar = () => {
             </li>
 
             <li className="relative group">
-              <button
-                onClick={() => setDropdownOpen(!dropdownOpen)}
-                className="flex items-center gap-1 hover:text-[#3F50B5] cursor-pointer"
-              >
+              <button className="flex items-center gap-1 hover:text-[#3F50B5] cursor-pointer">
                 Services <FaChevronDown className="text-xs mt-1" />
               </button>
-              {dropdownOpen && (
-                <ul className="absolute top-full left-0 bg-white text-black shadow-md rounded-md mt-2 w-72 z-50">
-                  {services.map((item, idx) => (
-                    <li
-                      key={idx}
-                      className="hover:bg-gray-100 px-4 py-2 cursor-pointer"
-                    >
-                      <Link
-                        href={`/services/${item
-                          .toLowerCase()
-                          .replace(/\s+/g, "-")}`}
-                        className="block"
-                      >
-                        {item}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              )}
+
+              <ul
+                className={`absolute top-full -left-32 bg-[#110f3e] text-white  shadow-md rounded-md  w-[30rem] z-50 transition-all duration-300 ease-in-out transform scale-95 opacity-0 group-hover:scale-100 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto`}
+              >
+                {services.map((item, idx) => (
+                  <li
+                    key={idx}
+                    className="hover:bg-gray-100 hover:text-black px-4 py-2 cursor-pointer"
+                  >
+                    <Link href={`/${item.path}`} className="block">
+                      {item.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </li>
+
             <li>
               <Link
                 href="/contact"
