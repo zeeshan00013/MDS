@@ -82,11 +82,15 @@ export default function MedicalCodingPage() {
 
   return (
     <>
-      <main className="bg-[#F8F8F8] text-[#333] py-12">
+      <main className=" text-[#333] py-12">
         {/* Hero Section */}
-        <section className="relative bg-[#110f3e] text-white mb-20">
-          <div className="max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
-            <div className="flex-1 z-10">
+        <section className="relative bg-[#110f3e] text-white mb-20 bg-[url('./images/coding.jpg')] bg-cover bg-center bg-no-repeat">
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-[#110f3e]/85 z-0" />
+
+          {/* Main Content */}
+          <div className="relative z-10 max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
+            <div className="flex-1">
               <h1 className="text-3xl md:text-4xl font-medium leading-tight mb-6 max-w-3xl">
                 CareBridge MDs – Certified Medical Coding Services Tailored to
                 Perfection
@@ -95,14 +99,14 @@ export default function MedicalCodingPage() {
                 Partner with CareBridge MDs to ensure accurate medical coding
                 that drives revenue and compliance across all specialties.
               </p>
-              <button className="bg-[#ffffff] text-[#362d7e] px-6 py-3 rounded-full font-semibold hover:bg-[#cad1f6] transition cursor-pointer">
+              <button className="bg-white text-[#362d7e] px-6 py-3 rounded-full font-semibold hover:bg-[#cad1f6] transition cursor-pointer">
                 Get Coding Consultation
               </button>
             </div>
           </div>
 
           {/* Floating Form */}
-          <div className="absolute w-full bottom-[-3rem] px-4">
+          <div className="absolute w-full bottom-[-3rem] px-4 z-20">
             <div className="bg-white max-w-5xl mx-auto shadow-xl rounded-2xl p-3 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
               <div className="flex flex-col w-full md:w-1/3">
                 <label className="font-medium text-gray-700 mb-1">

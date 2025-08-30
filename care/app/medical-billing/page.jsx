@@ -90,9 +90,11 @@ export default function MedicalBillingPage() {
   });
   return (
     <>
-      <main className="bg-[#F8F8F8] text-[#333]  py-12 ">
-        <section className="relative bg-[#110f3e] text-white mb-20">
-          <div className="max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
+      <main className=" text-[#333]  py-12 ">
+        <section className="relative  text-white mb-20 bg-[url('./images/billing.jpg')] bg-cover bg-center bg-no-repeat">
+          <div className="bg-[#110f3e]/85 w-full h-full absolute inset-0 z-0 rounded-none"></div>
+
+          <div className="relative z-10 max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
             {/* Left Section */}
             <div className="flex-1 z-10">
               <h1 className="text-3xl md:text-4xl font-medium leading-tight mb-6 max-w-3xl">
@@ -111,7 +113,7 @@ export default function MedicalBillingPage() {
           </div>
 
           {/* Bottom Form - Overlapping */}
-          <div className="absolute w-full bottom-[-3rem] px-4">
+          <div className="absolute w-full bottom-[-3rem] px-4 z-20">
             <div className="bg-white max-w-5xl mx-auto shadow-xl rounded-2xl p-3 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
               <div className="flex flex-col w-full md:w-1/3">
                 <label className="font-medium text-gray-700 mb-1">
@@ -152,7 +154,7 @@ export default function MedicalBillingPage() {
                 />
               </div>
 
-              <button className="bg-[#362d7e] hover:bg-[#2c2560] text-white font-semibold py-2  rounded-full w-full cursor-pointer">
+              <button className="bg-[#362d7e] hover:bg-[#2c2560] text-white font-semibold py-2 rounded-full w-full cursor-pointer">
                 Book Now
               </button>
             </div>

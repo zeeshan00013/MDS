@@ -44,6 +44,11 @@ const Hero = () => {
               placeholder="Phone Number"
               className="px-4 py-2 border rounded w-[150px] md:w-[180px] outline-0 border-[#362d7e]"
             />
+            <textarea
+              type="text"
+              placeholder="Text"
+              className="px-4 py-2 border rounded w-[150px] md:w-[180px] outline-0 border-[#362d7e]"
+            />
           </div>
 
           {/* CTA + Google Rating */}
