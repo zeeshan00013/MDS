@@ -84,7 +84,7 @@ export default function MedicalCodingPage() {
     <>
       <main className=" text-[#333] py-12">
         {/* Hero Section */}
-        <section className="relative bg-[#110f3e] text-white mb-20 bg-[url('./images/coding.jpg')] bg-cover bg-center bg-no-repeat">
+        <section className="relative bg-[#110f3e] text-white mb-20 bg-[url('/coding.jpg')] bg-cover bg-center bg-no-repeat">
           {/* Overlay */}
           <div className="absolute inset-0 bg-[#110f3e]/85 z-0" />
 

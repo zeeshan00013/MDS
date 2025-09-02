@@ -84,7 +84,7 @@ export default function DigitalMarketingPage() {
     <>
       <main className="bg-[#F8F8F8] text-[#333] py-12">
         {/* Hero Section */}
-        <section className="relative bg-[#110f3e] text-white mb-20 bg-[url('./images/digital.jpg')] bg-cover bg-center bg-no-repeat">
+        <section className="relative bg-[#110f3e] text-white mb-20 bg-[url('/digital.jpg')] bg-cover bg-center bg-no-repeat">
           {/* Overlay */}
           <div className="absolute inset-0 bg-[#110f3e]/85 z-0" />
 

@@ -91,7 +91,7 @@ export default function MedicalBillingPage() {
   return (
     <>
       <main className=" text-[#333]  py-12 ">
-        <section className="relative  text-white mb-20 bg-[url('./images/billing.jpg')] bg-cover bg-center bg-no-repeat">
+        <section className="relative  text-white mb-20 bg-[url('/billing.jpg')] bg-cover bg-center bg-no-repeat">
           <div className="bg-[#110f3e]/85 w-full h-full absolute inset-0 z-0 rounded-none"></div>
 
           <div className="relative z-10 max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
