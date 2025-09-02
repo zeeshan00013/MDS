@@ -76,15 +76,15 @@ const Hero = () => {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6 text-center text-sm md:text-base">
           <div className="flex flex-col items-center gap-1">
             <FaStar className="text-2xl" />
-            <span>1500+ Satisfied Providers</span>
+            <span>100+ Satisfied Providers</span>
           </div>
           <div className="flex flex-col items-center gap-1">
             <MdLocalHospital className="text-2xl" />
-            <span>Serving More Than 75 Specialties</span>
+            <span>Serving More Than 50 Specialties</span>
           </div>
           <div className="flex flex-col items-center gap-1">
             <FaUserMd className="text-2xl" />
-            <span>1200+ Billing and Coding Experts</span>
+            <span>100+ Billing and Coding Experts</span>
           </div>
         </div>
       </div>
