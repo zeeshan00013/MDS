@@ -73,7 +73,7 @@ const Hero = () => {
 
       {/* Bottom Stats */}
       <div className="bg-[#362d7e] text-white  py-4">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6 text-center text-sm md:text-base">
+        <div className="max-w-7xl mx-auto px-7 grid grid-cols-1 md:grid-cols-3 gap-6 text-center text-sm md:text-base">
           <div className="flex flex-col items-center gap-1">
             <FaStar className="text-2xl" />
             <span>100+ Satisfied Providers</span>
