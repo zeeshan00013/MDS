@@ -10,16 +10,16 @@ const Hero = () => {
         {/* Left Content */}
         <div className="lg:w-1/2 mt-10">
           <p className="uppercase text-lg font-semibold text-zinc-900 mb-2">
-            Care Bridge MDs
+            Claims Align Solutions
           </p>
           <h1 className="text-3xl md:text-4xl font-bold text-[#3d2d7d] leading-tight mb-4">
-            Top Medical Billing Company in Texas | Care Bridge MDs
+            Top Medical Billing Company in Texas | Claims Align Solutions
           </h1>
           <p className="text-zinc-900 mb-2">
-            CareBridge is one of the leading medical billing firms in the USA –
-            committed to delivering best-in-class billing and coding services
-            for physicians and healthcare providers seeking reliable third-party
-            billing solutions.
+            Claims Align Solutions (CAS) is one of the leading medical billing
+            firms in the USA – committed to delivering best-in-class billing and
+            coding services for physicians and healthcare providers seeking
+            reliable third-party billing solutions.
           </p>
           <p className="text-zinc-900 mb-6">
             Our certified medical coders and billers empower healthcare
