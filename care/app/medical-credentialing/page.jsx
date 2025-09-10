@@ -91,12 +91,12 @@ export default function MedicalCredentialingPage() {
           <div className="relative z-10 max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
             <div className="flex-1">
               <h1 className="text-3xl md:text-4xl font-medium leading-tight mb-6 max-w-3xl">
-                CareBridge MDs – Medical Credentialing Services Tailored for
-                Provider Success
+                Claims Align Solutions – Medical Credentialing Services Tailored
+                for Provider Success
               </h1>
               <p className="text-lg mb-6 max-w-lg">
-                Partner with CareBridge MDs to streamline credentialing, improve
-                payer relationships, and reduce enrollment delays.
+                Partner with Claims Align Solutions to streamline credentialing,
+                improve payer relationships, and reduce enrollment delays.
               </p>
               <button className="bg-white text-[#362d7e] px-6 py-3 rounded-full font-semibold hover:bg-[#cad1f6] transition cursor-pointer">
                 Get Credentialing Consultation
@@ -153,12 +153,12 @@ export default function MedicalCredentialingPage() {
         {/* Intro Section */}
         <section className="max-w-7xl mx-auto text-center items-center gap-10 mb-20 px-6">
           <h2 className="text-3xl font-semibold text-[#362d7e] mb-4">
-            End-to-End Medical Credentialing by CareBridge MDs
+            End-to-End Medical Credentialing by Claims Align Solutions
           </h2>
           <p className="mb-4">
-            <strong>CareBridge MDs</strong> handles credentialing from start to
-            finish, helping providers join networks and maintain compliance
-            effortlessly.
+            <strong>Claims Align Solutions</strong> handles credentialing from
+            start to finish, helping providers join networks and maintain
+            compliance effortlessly.
           </p>
           <p className="mb-4">
             We manage CAQH, NPI, licensing, and payer enrollment across all
@@ -172,7 +172,7 @@ export default function MedicalCredentialingPage() {
         {/* Why Us Section */}
         <section className="max-w-7xl mx-auto mb-20">
           <h2 className="text-3xl font-medium text-[#362d7e] mb-6 text-center">
-            Why Choose CareBridge MDs for Credentialing?
+            Why Choose Claims Align Solutions for Credentialing?
           </h2>
           <div className="flex justify-center">
             <div className="grid md:grid-cols-3 gap-8 text-gray-800 w-full max-w-6xl mt-5 px-2">
@@ -233,7 +233,8 @@ export default function MedicalCredentialingPage() {
             Our Credentialing Solutions
           </p>
           <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-[#362d7e] w-4/6 text-center">
-            Why Healthcare Providers Trust CareBridge MDs for Credentialing
+            Why Healthcare Providers Trust Claims Align Solutions for
+            Credentialing
           </h2>
           <p className="text-center max-w-3xl mx-auto mb-12 text-gray-700">
             We provide complete, hassle-free credentialing services with
@@ -266,7 +267,7 @@ export default function MedicalCredentialingPage() {
             Ready to Simplify Your Credentialing Process?
           </h2>
           <p className="mb-6 max-w-2xl mx-auto">
-            Book a free consultation with CareBridge MDs to ensure fast,
+            Book a free consultation with Claims Align Solutions to ensure fast,
             accurate, and hassle-free credentialing for your practice.
           </p>
           <a

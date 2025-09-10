@@ -1,5 +1,5 @@
 import Image from "next/image";
-import doctorImage from "../Images/drhero.png"; // Replace with your image
+import doctorImage from "../Images/drhero.webp"; // Replace with your image
 import { FaStar, FaUserMd } from "react-icons/fa";
 import { MdLocalHospital } from "react-icons/md";
 

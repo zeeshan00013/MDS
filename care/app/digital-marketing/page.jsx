@@ -92,13 +92,13 @@ export default function DigitalMarketingPage() {
           <div className="relative z-10 max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
             <div className="flex-1">
               <h1 className="text-3xl md:text-4xl font-medium leading-tight mb-6 max-w-3xl">
-                CareBridge MDs – Digital Marketing Solutions for Medical
+                Claims Align Solutions – Digital Marketing Solutions for Medical
                 Practices
               </h1>
               <p className="text-lg mb-6 max-w-lg">
-                Grow your practice with CareBridge MDs' healthcare-specific
-                digital marketing services, driving patient engagement and
-                online visibility.
+                Grow your practice with Claims Align Solutions'
+                healthcare-specific digital marketing services, driving patient
+                engagement and online visibility.
               </p>
               <button className="bg-white text-[#362d7e] px-6 py-3 rounded-full font-semibold hover:bg-[#cad1f6] transition cursor-pointer">
                 Get Digital Marketing Consultation
@@ -158,9 +158,9 @@ export default function DigitalMarketingPage() {
             Targeted Digital Marketing for Healthcare Professionals
           </h2>
           <p className="mb-4">
-            <strong>CareBridge MDs</strong> provides comprehensive digital
-            marketing services designed to grow your patient base, enhance
-            online presence, and boost practice revenue.
+            <strong>Claims Align Solutions</strong> provides comprehensive
+            digital marketing services designed to grow your patient base,
+            enhance online presence, and boost practice revenue.
           </p>
           <p className="mb-4">
             From SEO to social media and paid ads, we help healthcare providers
@@ -175,7 +175,7 @@ export default function DigitalMarketingPage() {
         {/* Why Us Section */}
         <section className="max-w-7xl mx-auto mb-20">
           <h2 className="text-3xl font-medium text-[#362d7e] mb-6 text-center">
-            Why Choose CareBridge MDs for Digital Marketing?
+            Why Choose Claims Align Solutions for Digital Marketing?
           </h2>
           <div className="flex justify-center">
             <div className="grid md:grid-cols-3 gap-8 text-gray-800 w-full max-w-6xl mt-5 px-2">
@@ -236,7 +236,8 @@ export default function DigitalMarketingPage() {
             Our Digital Marketing Services
           </p>
           <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-[#362d7e] w-4/6 text-center">
-            Why Healthcare Providers Choose CareBridge MDs for Online Growth
+            Why Healthcare Providers Choose Claims Align Solutions for Online
+            Growth
           </h2>
           <p className="text-center max-w-3xl mx-auto mb-12 text-gray-700">
             We craft customized marketing strategies for every medical practice
@@ -269,8 +270,9 @@ export default function DigitalMarketingPage() {
             Ready to Grow Your Practice Online?
           </h2>
           <p className="mb-6 max-w-2xl mx-auto">
-            Book a free consultation with CareBridge MDs and discover how our
-            digital marketing services can transform your online presence.
+            Book a free consultation with Claims Align Solutions and discover
+            how our digital marketing services can transform your online
+            presence.
           </p>
           <a
             href="/book-appointment"

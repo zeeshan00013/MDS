@@ -80,7 +80,7 @@ export default function Contact() {
           {/* Email */}
           <div className="flex items-center space-x-3 text-gray-700">
             <FaEnvelope className="text-[#362d7e]" />
-            <span>carebridgemd580@gmail.com</span>
+            <span>info@claimsalignsolutions.com</span>
           </div>
 
           {/* Phone */}

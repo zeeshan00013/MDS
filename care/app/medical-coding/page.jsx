@@ -92,12 +92,13 @@ export default function MedicalCodingPage() {
           <div className="relative z-10 max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
             <div className="flex-1">
               <h1 className="text-3xl md:text-4xl font-medium leading-tight mb-6 max-w-3xl">
-                CareBridge MDs – Certified Medical Coding Services Tailored to
-                Perfection
+                Claims Align Solutions – Certified Medical Coding Services
+                Tailored to Perfection
               </h1>
               <p className="text-lg mb-6 max-w-lg">
-                Partner with CareBridge MDs to ensure accurate medical coding
-                that drives revenue and compliance across all specialties.
+                Partner with Claims Align Solutions to ensure accurate medical
+                coding that drives revenue and compliance across all
+                specialties.
               </p>
               <button className="bg-white text-[#362d7e] px-6 py-3 rounded-full font-semibold hover:bg-[#cad1f6] transition cursor-pointer">
                 Get Coding Consultation
@@ -154,12 +155,12 @@ export default function MedicalCodingPage() {
         {/* Intro Section */}
         <section className="max-w-7xl mx-auto text-center items-center gap-10 mb-20 px-6">
           <h2 className="text-3xl font-semibold text-[#362d7e] mb-4">
-            Professional Medical Coding Services by CareBridge MDs
+            Professional Medical Coding Services by Claims Align Solutions
           </h2>
           <p className="mb-4">
-            <strong>CareBridge MDs</strong> provides expert coding services to
-            ensure providers meet payer and legal documentation requirements
-            while optimizing revenue capture.
+            <strong>Claims Align Solutions</strong> provides expert coding
+            services to ensure providers meet payer and legal documentation
+            requirements while optimizing revenue capture.
           </p>
           <p className="mb-4">
             Our coders work across all EHRs and are trained to handle complex
@@ -174,7 +175,7 @@ export default function MedicalCodingPage() {
         {/* Why Us Section */}
         <section className="max-w-7xl mx-auto mb-20">
           <h2 className="text-3xl font-medium text-[#362d7e] mb-6 text-center">
-            Why Choose CareBridge MDs for Medical Coding?
+            Why Choose Claims Align Solutions for Medical Coding?
           </h2>
           <div className="flex justify-center">
             <div className="grid md:grid-cols-3 gap-8 text-gray-800 w-full max-w-6xl mt-5 px-2">
@@ -236,7 +237,8 @@ export default function MedicalCodingPage() {
             Our Coding Solutions
           </p>
           <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-[#362d7e] w-4/6 text-center">
-            Why Healthcare Providers Trust CareBridge MDs for Medical Coding
+            Why Healthcare Providers Trust Claims Align Solutions for Medical
+            Coding
           </h2>
           <p className="text-center max-w-3xl mx-auto mb-12 text-gray-700">
             We go beyond standard coding services. Our team works closely with
@@ -269,8 +271,8 @@ export default function MedicalCodingPage() {
             Ready to Streamline Your Medical Coding?
           </h2>
           <p className="mb-6 max-w-2xl mx-auto">
-            Book a free consultation with CareBridge MDs’ coding experts to get
-            cleaner claims, faster payments, and reduced audit risks.
+            Book a free consultation with Claims Align Solutions’ coding experts
+            to get cleaner claims, faster payments, and reduced audit risks.
           </p>
           <a
             href="/book-appointment"

@@ -36,7 +36,7 @@ const Navbar = () => {
             <span>+923480114527</span>
           </div>
           <div className="flex items-center gap-4 ">
-            <span>carebridgemd580@gmail.com</span>
+            <span>info@claimsalignsolutions.com</span>
             <span>|</span>
             <span className="flex ">Taxas USA</span>
           </div>
@@ -47,8 +47,10 @@ const Navbar = () => {
       <div className="bg-white shadow-md">
         <nav className="px-6 py-6 flex justify-between items-center flex-wrap max-w-7xl mx-auto">
           {/* Logo */}
-          <div className="flex items-center gap-2 text-xl font-semibold text-[#14124B]">
-            Care<span className="text-[#3F50B5]">Bridge</span>
+          <div className="flex items-center  text-xl font-semibold text-[#14124B]">
+            <Link href={"/"}>
+              Claims<span className="text-[#3F50B5]">Align</span>Solutions
+            </Link>
           </div>
 
           {/* Hamburger for mobile */}
@@ -147,9 +149,7 @@ const Navbar = () => {
                       className="hover:text-[#3F50B5] py-1 cursor-pointer"
                     >
                       <Link
-                        href={`/services/${item
-                          .toLowerCase()
-                          .replace(/\s+/g, "-")}`}
+                        href={`/${item.toLowerCase().replace(/\s+/g, "-")}`}
                         className="block"
                       >
                         {item}

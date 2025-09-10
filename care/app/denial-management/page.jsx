@@ -92,8 +92,8 @@ export default function DenialManagementPage() {
           <div className="relative z-10 max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
             <div className="flex-1">
               <h1 className="text-3xl md:text-4xl font-medium leading-tight mb-6 max-w-3xl">
-                CareBridge MDs – Denial Management Services That Recover Lost
-                Revenue
+                Claims Align Solutions – Denial Management Services That Recover
+                Lost Revenue
               </h1>
               <p className="text-lg mb-6 max-w-lg">
                 Eliminate revenue leakage with expert denial handling, faster
@@ -154,11 +154,12 @@ export default function DenialManagementPage() {
         {/* Intro Section */}
         <section className="max-w-7xl mx-auto text-center items-center gap-10 mb-20 px-6">
           <h2 className="text-3xl font-semibold text-[#362d7e] mb-4">
-            Professional Denial Management by CareBridge MDs
+            Professional Denial Management by Claims Align Solutions
           </h2>
           <p className="mb-4">
-            <strong>CareBridge MDs</strong> turns denials into dollars with fast
-            action, root cause analysis, and payer-specific appeal strategies.
+            <strong>Claims Align Solutions</strong> turns denials into dollars
+            with fast action, root cause analysis, and payer-specific appeal
+            strategies.
           </p>
           <p className="mb-4">
             We help practices reduce write-offs and prevent recurring denials
@@ -173,7 +174,7 @@ export default function DenialManagementPage() {
         {/* Why Us Section */}
         <section className="max-w-7xl mx-auto mb-20">
           <h2 className="text-3xl font-medium text-[#362d7e] mb-6 text-center">
-            Why Choose CareBridge MDs for Denial Management?
+            Why Choose Claims Align Solutions for Denial Management?
           </h2>
           <div className="flex justify-center">
             <div className="grid md:grid-cols-3 gap-8 text-gray-800 w-full max-w-6xl mt-5 px-2">
@@ -234,7 +235,7 @@ export default function DenialManagementPage() {
             Our Denial Management Solutions
           </p>
           <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-[#362d7e] w-4/6 text-center">
-            How CareBridge MDs Recovers Denied Revenue
+            How Claims Align Solutions Recovers Denied Revenue
           </h2>
           <p className="text-center max-w-3xl mx-auto mb-12 text-gray-700">
             Don’t let denials drain your revenue. Our team identifies, corrects,

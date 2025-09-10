@@ -43,7 +43,7 @@ export const metadata = {
     url: "https://www.claimsalignsolutions.com",
     images: [
       {
-        url: "https://www.claimsalignsolutions.com/images/caremds.webp",
+        url: "https://www.claimsalignsolutions.com/Images/drhero.webp",
         width: 1200,
         height: 630,
         alt: "Claims Align Solutions - Medical Billing Services Banner",
@@ -58,7 +58,7 @@ export const metadata = {
     title: "Claims Align Solutions - Boost Revenue with Expert RCM Services",
     description:
       "Boost your practice revenue with Claims Align Solutions. Expert RCM and medical billing services tailored for healthcare providers in the USA.",
-    images: ["https://www.claimsalignsolutions.com/images/caremds.webp"],
+    images: ["https://www.claimsalignsolutions.com/Images/drhero.webp"],
   },
 
   alternates: {

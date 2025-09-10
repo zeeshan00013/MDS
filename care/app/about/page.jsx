@@ -4,32 +4,25 @@ import Image from "next/image";
 import { FaUserMd, FaHeartbeat, FaLaptopMedical } from "react-icons/fa";
 import { MdOutlinePeopleAlt } from "react-icons/md";
 import { BiTargetLock } from "react-icons/bi";
-import img from "../Images/caremds.webp";
 
 export default function AboutPage() {
   return (
-    <div className="bg-white text-gray-800 px-6 py-16">
-      {/* Header Section */}
-      <div className="max-w-6xl mx-auto text-center">
-        <h1 className="text-3xl md:text-4xl font-medium leading-tight mb-6 ">
-          About CareBridge MDS
+    <div className="bg-white text-gray-800  py-16">
+      <div className=" bg-[#110f3e] mx-auto text-center px-6 py-4">
+        <h1 className="text-3xl md:text-4xl font-medium text-white leading-tight mb-6 ">
+          About Claims ALign Solutions
         </h1>
-        <p className="text-lg text-gray-600">
-          Your Trusted Partner in Medical Billing & Revenue Cycle Management
+        <p className="text-lg text-gray-100">
+          Claims Align Solutions is a trusted healthcare service provider
+          offering end-to-end solutions for medical billing, revenue cycle
+          management, credentialing, coding, and practice optimization. Our
+          services are designed to help healthcare providers operate more
+          efficiently, reduce revenue loss, and improve financial performance.
         </p>
       </div>
 
-      {/* Mission, Vision & Values */}
-      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-10 mt-16">
-        {/* Mission */}
+      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-10 mt-16 px-6">
         <div className="text-center">
-          <Image
-            src={img}
-            alt="Mission"
-            width={300}
-            height={200}
-            className="mx-auto rounded-md"
-          />
           <BiTargetLock className="text-5xl text-[#3d2d7d] mx-auto mt-4" />
           <h2 className="text-xl font-semibold mt-2">Our Mission</h2>
           <p className="text-sm text-gray-600 mt-2">
@@ -38,15 +31,7 @@ export default function AboutPage() {
           </p>
         </div>
 
-        {/* Vision */}
         <div className="text-center">
-          <Image
-            src={img}
-            alt="Vision"
-            width={300}
-            height={200}
-            className="mx-auto rounded-md"
-          />
           <FaHeartbeat className="text-5xl text-[#3d2d7d] mx-auto mt-4" />
           <h2 className="text-xl font-semibold mt-2">Our Vision</h2>
           <p className="text-sm text-gray-600 mt-2">
@@ -55,15 +40,7 @@ export default function AboutPage() {
           </p>
         </div>
 
-        {/* Teamwork */}
         <div className="text-center">
-          <Image
-            src={img}
-            alt="Team"
-            width={300}
-            height={200}
-            className="mx-auto rounded-md"
-          />
           <MdOutlinePeopleAlt className="text-5xl text-[#3d2d7d] mx-auto mt-4" />
           <h2 className="text-xl font-semibold mt-2">Our Team</h2>
           <p className="text-sm text-gray-600 mt-2">
@@ -73,10 +50,9 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* Why Choose Us Section */}
-      <div className="max-w-5xl mx-auto mt-20">
+      <div className="max-w-5xl mx-auto mt-20 px-6">
         <h2 className="text-3xl font-bold text-center text-[#3d2d7d] mb-10">
-          Why Choose CareBridge MDS?
+          Why Choose Claims Align Solutions ?
         </h2>
         <div className="grid md:grid-cols-3 gap-8 text-center">
           <div className="p-6 border rounded-lg shadow hover:shadow-md transition">

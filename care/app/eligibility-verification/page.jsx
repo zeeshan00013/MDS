@@ -92,12 +92,12 @@ export default function EligibilityVerificationPage() {
           <div className="relative z-10 max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
             <div className="flex-1">
               <h1 className="text-3xl md:text-4xl font-medium leading-tight mb-6 max-w-3xl">
-                CareBridge MDs – Fast & Reliable Eligibility Verification
-                Services
+                Claims Align Solutions – Fast & Reliable Eligibility
+                Verification Services
               </h1>
               <p className="text-lg mb-6 max-w-lg">
                 Improve your claim success rate and reduce denials with accurate
-                real-time eligibility verification from CareBridge MDs.
+                real-time eligibility verification from Claims Align Solutions.
               </p>
               <button className="bg-white text-[#362d7e] px-6 py-3 rounded-full font-semibold hover:bg-[#cad1f6] transition cursor-pointer">
                 Get Eligibility Verification Help
@@ -157,9 +157,9 @@ export default function EligibilityVerificationPage() {
             Simplified Eligibility Verification for Your Practice
           </h2>
           <p className="mb-4">
-            <strong>CareBridge MDs</strong> helps you verify patient insurance
-            eligibility before services, avoiding costly denials and improving
-            cash flow.
+            <strong>Claims Align Solutions</strong> helps you verify patient
+            insurance eligibility before services, avoiding costly denials and
+            improving cash flow.
           </p>
           <p className="mb-4">
             Our team ensures all scheduled patients are verified in advance,
@@ -173,7 +173,7 @@ export default function EligibilityVerificationPage() {
         {/* Why Us Section */}
         <section className="max-w-7xl mx-auto mb-20">
           <h2 className="text-3xl font-medium text-[#362d7e] mb-6 text-center">
-            Why Choose CareBridge MDs for Eligibility Verification?
+            Why Choose Claims Align Solutions for Eligibility Verification?
           </h2>
           <div className="flex justify-center">
             <div className="grid md:grid-cols-3 gap-8 text-gray-800 w-full max-w-6xl mt-5 px-2">
@@ -234,7 +234,8 @@ export default function EligibilityVerificationPage() {
             Our Eligibility Solutions
           </p>
           <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-[#362d7e] w-4/6 text-center">
-            Why Healthcare Providers Trust CareBridge MDs for Verification
+            Why Healthcare Providers Trust Claims Align Solutions for
+            Verification
           </h2>
           <p className="text-center max-w-3xl mx-auto mb-12 text-gray-700">
             We provide end-to-end eligibility services to help practices confirm
@@ -266,8 +267,8 @@ export default function EligibilityVerificationPage() {
             Want to Improve Eligibility Accuracy?
           </h2>
           <p className="mb-6 max-w-2xl mx-auto">
-            Book a free consultation with CareBridge MDs and learn how we can
-            simplify eligibility verification for your practice.
+            Book a free consultation with Claims Align Solutions and learn how
+            we can simplify eligibility verification for your practice.
           </p>
           <a
             href="/book-appointment"

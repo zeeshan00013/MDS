@@ -92,8 +92,8 @@ export default function RevenueCycleManagementPage() {
           <div className="relative z-10 max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
             <div className="flex-1">
               <h1 className="text-3xl md:text-4xl font-medium leading-tight mb-6 max-w-3xl">
-                CareBridge MDs – Revenue Cycle Management Solutions for Maximum
-                Reimbursement
+                Claims Align Solutions – Revenue Cycle Management Solutions for
+                Maximum Reimbursement
               </h1>
               <p className="text-lg mb-6 max-w-lg">
                 Optimize your practice’s cash flow with our full-service RCM
@@ -154,10 +154,10 @@ export default function RevenueCycleManagementPage() {
         {/* Intro Section */}
         <section className="max-w-7xl mx-auto text-center items-center gap-10 mb-20 px-6">
           <h2 className="text-3xl font-semibold text-[#362d7e] mb-4">
-            Complete Revenue Cycle Management by CareBridge MDs
+            Complete Revenue Cycle Management by Claims Align Solutions
           </h2>
           <p className="mb-4">
-            <strong>CareBridge MDs</strong> handles the entire revenue
+            <strong>Claims Align Solutions</strong> handles the entire revenue
             cycle—from patient registration to payment posting—ensuring faster
             collections and cleaner claims.
           </p>
@@ -173,7 +173,7 @@ export default function RevenueCycleManagementPage() {
         {/* Why Us Section */}
         <section className="max-w-7xl mx-auto mb-20">
           <h2 className="text-3xl font-medium text-[#362d7e] mb-6 text-center">
-            Why Choose CareBridge MDs for RCM?
+            Why Choose Claims Align Solutions for RCM?
           </h2>
           <div className="flex justify-center">
             <div className="grid md:grid-cols-3 gap-8 text-gray-800 w-full max-w-6xl mt-5 px-2">
@@ -234,7 +234,7 @@ export default function RevenueCycleManagementPage() {
             Our RCM Solutions
           </p>
           <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-[#362d7e] w-4/6 text-center">
-            Why Practices Trust CareBridge MDs with Their Revenue Cycle
+            Why Practices Trust Claims Align Solutions with Their Revenue Cycle
           </h2>
           <p className="text-center max-w-3xl mx-auto mb-12 text-gray-700">
             We bring expertise, transparency, and efficiency to every part of
@@ -267,8 +267,8 @@ export default function RevenueCycleManagementPage() {
             Want to Improve Collections and Cash Flow?
           </h2>
           <p className="mb-6 max-w-2xl mx-auto">
-            Book a free consultation with CareBridge MDs to unlock the full
-            revenue potential of your medical practice.
+            Book a free consultation with Claims Align Solutions to unlock the
+            full revenue potential of your medical practice.
           </p>
           <a
             href="/book-appointment"

@@ -10,13 +10,13 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Company Info */}
         <div>
-          <h2 className="text-3xl font-bold mb-2">Care Bridge </h2>
+          <h2 className="text-3xl font-bold mb-2">Claims Align Solutions </h2>
           <p className="text-sm leading-6 mt-4">
-            MDS USA LLC is a leading healthcare services provider, managing
-            numerous medical practices with compassionate, skilled professionals
-            utilizing the latest tools and techniques. Our goal is to maintain
-            the highest standards by providing our clients with complete RCM
-            solutions.
+            Claims Align Solutions (CAS) USA LLC is a leading healthcare
+            services provider, managing numerous medical practices with
+            compassionate, skilled professionals utilizing the latest tools and
+            techniques. Our goal is to maintain the highest standards by
+            providing our clients with complete RCM solutions.
           </p>
           <div className="flex gap-3 mt-6">
             <FaFacebookF className="w-6 h-6 hover:text-blue-500 cursor-pointer" />
@@ -55,7 +55,7 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
           <ul className="space-y-3 text-lg">
             <li className="flex items-start gap-2">
-              <CiMail className="mt-1 text-lg" /> carebridgemd580@gmail.com
+              <CiMail className="mt-1 text-lg" /> info@claimsalignsolutions.com
             </li>
             <li className="flex items-start gap-2">
               <MdPhone className="mt-1 text-lg" /> +923480114527
@@ -70,12 +70,8 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="mt-10 border-t border-white/30 pt-4 text-center text-sm flex flex-col items-center md:flex-row md:justify-between">
-        <div className="flex items-center gap-2">
-          <img src="/dmca.png" alt="DMCA" className="h-6" />
-          <img src="/protected.png" alt="Protected" className="h-6" />
-        </div>
         <p className="mt-2 md:mt-0">
-          © CareBridge MDS USA LLC. All rights reserved.
+          © Claims Align Solutions USA LLC. All rights reserved.
         </p>
       </div>
     </footer>

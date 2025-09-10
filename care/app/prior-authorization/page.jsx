@@ -92,8 +92,8 @@ export default function PriorAuthorizationPage() {
           <div className="relative z-10 max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
             <div className="flex-1">
               <h1 className="text-3xl md:text-4xl font-medium leading-tight mb-6 max-w-3xl">
-                CareBridge MDs – Hassle-Free Prior Authorization Services for
-                Providers
+                Claims Align Solutions – Hassle-Free Prior Authorization
+                Services for Providers
               </h1>
               <p className="text-lg mb-6 max-w-lg">
                 Eliminate delays in patient care with our efficient and accurate
@@ -154,11 +154,12 @@ export default function PriorAuthorizationPage() {
         {/* Intro Section */}
         <section className="max-w-7xl mx-auto text-center items-center gap-10 mb-20 px-6">
           <h2 className="text-3xl font-semibold text-[#362d7e] mb-4">
-            Seamless Prior Authorization by CareBridge MDs
+            Seamless Prior Authorization by Claims Align Solutions
           </h2>
           <p className="mb-4">
-            <strong>CareBridge MDs</strong> streamlines the authorization
-            process so your practice can focus on care, not paperwork.
+            <strong>Claims Align Solutions</strong> streamlines the
+            authorization process so your practice can focus on care, not
+            paperwork.
           </p>
           <p className="mb-4">
             We handle document gathering, submission, tracking, and appeal
@@ -172,7 +173,7 @@ export default function PriorAuthorizationPage() {
         {/* Why Us Section */}
         <section className="max-w-7xl mx-auto mb-20">
           <h2 className="text-3xl font-medium text-[#362d7e] mb-6 text-center">
-            Why Choose CareBridge MDs for Prior Authorization?
+            Why Choose Claims Align Solutions for Prior Authorization?
           </h2>
           <div className="flex justify-center">
             <div className="grid md:grid-cols-3 gap-8 text-gray-800 w-full max-w-6xl mt-5 px-2">
@@ -233,7 +234,7 @@ export default function PriorAuthorizationPage() {
             Our Authorization Solutions
           </p>
           <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-[#362d7e] w-4/6 text-center">
-            Why Providers Rely on CareBridge MDs for Prior Authorization
+            Why Providers Rely on Claims Align Solutions for Prior Authorization
           </h2>
           <p className="text-center max-w-3xl mx-auto mb-12 text-gray-700">
             We simplify the most time-consuming part of your revenue cycle—prior

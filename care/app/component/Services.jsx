@@ -48,13 +48,13 @@ const Services = () => {
     <section className="py-16 px-6 bg-[#F8F8F8] overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col items-center">
         <h2 className="text-3xl font-medium mb-5 text-center text-[#362d7e]">
-          Top Medical Billing Services by CareBridge MDs
+          Top Medical Billing Services by Claims Align Solutions
         </h2>
         <p className="text-zinc-900 mb-2 text-center max-w-3xl">
-          CareBridge is one of the leading medical billing firms in the USA –
-          committed to delivering best-in-class billing and coding services for
-          physicians and healthcare providers seeking reliable third-party
-          billing solutions.
+          ClaimsAlignSolutions is one of the leading medical billing firms in
+          the USA – committed to delivering best-in-class billing and coding
+          services for physicians and healthcare providers seeking reliable
+          third-party billing solutions.
         </p>
 
         <div className="hidden md:flex flex-col md:flex-row gap-4 justify-center transition-all duration-300 mt-5">

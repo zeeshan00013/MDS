@@ -5,27 +5,28 @@ import { FaChevronDown } from "react-icons/fa";
 const faqs = [
   {
     question:
-      "What makes CareBridge MDS different from other medical billing companies?",
+      "What makes ClaimAlign Solutions different from other medical billing companies?",
     answer:
-      "At CareBridge MDS, we provide end-to-end revenue cycle management solutions tailored to your specialty. Our team focuses on maximizing reimbursements and reducing claim denials.",
+      "At ClaimAlign Solutions, we provide end-to-end revenue cycle management solutions tailored to your specialty. Our team focuses on maximizing reimbursements and reducing claim denials.",
   },
   {
-    question: "How does CareBridge MDS help reduce claim denials?",
+    question: "How does ClaimAlign Solutions help reduce claim denials?",
     answer:
       "We use advanced coding, thorough claim scrubbing, and follow-up processes to minimize errors. Our experts track every claim until payment is received.",
   },
   {
-    question: "Does CareBridge MDS work with all medical specialties?",
+    question: "Does ClaimAlign Solutions work with all medical specialties?",
     answer:
       "Yes. We support a wide range of specialties including cardiology, orthopedics, neurology, primary care, and more.",
   },
   {
-    question: "Can CareBridge MDS integrate with our existing EHR/EMR system?",
+    question:
+      "Can ClaimAlign Solutions integrate with our existing EHR/EMR system?",
     answer:
       "Absolutely. Our billing solutions are designed to seamlessly integrate with most major EHR/EMR systems to streamline workflows.",
   },
   {
-    question: "Is patient data safe with CareBridge MDS?",
+    question: "Is patient data safe with ClaimAlign Solutions?",
     answer:
       "Yes, data security is our top priority. We comply with HIPAA regulations and implement advanced data protection measures to safeguard patient information.",
   },
@@ -43,7 +44,7 @@ export default function Faq() {
       <div className="max-w-4xl mx-auto">
         {/* Heading */}
         <h2 className="text-2xl md:text-3xl font-medium text-center text-[#362d7e] mb-10">
-          CareBridge MDS – Frequently Asked Questions
+          Claims Align Solutions – Frequently Asked Questions
         </h2>
 
         {/* FAQ List */}

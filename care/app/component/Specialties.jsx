@@ -34,11 +34,13 @@ export default function Specialties() {
     <section className="max-w-7xl mx-auto px-6 py-16 text-center flex flex-col items-center justify-center ">
       <h2 className="text-3xl font-medium  text-center  mb-4 text-zinc-900">
         Medical Specialties Covered by
-        <span className="text-[#362d7e]"> Care Bridge MDS </span> <br /> with
-        Expert Billing Services
+        <span className="text-[#362d7e]">
+          {" "}
+          ClaimsAlignSolutions{" "}
+        </span> <br /> with Expert Billing Services
       </h2>
       <p className="text-gray-600 max-w-2xl mx-auto mb-12">
-        CareBridge delivers comprehensive medical billing services for a broad
+        (CAS) delivers comprehensive medical billing services for a broad
         spectrum of specialties, ranging from primary care to surgical centers,
         with a focus on small and mid-sized practices.
       </p>
