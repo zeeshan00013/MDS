@@ -69,6 +69,31 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "RCM Expert Consultants",
+              url: "https://www.revenuealignsolutions.com",
+              sameAs: [],
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+1-555-555-5555",
+                contactType: "Customer Support",
+              },
+            }),
+          }}
+        />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="google-site-verification"
+          content="BVg1CeeLSMhxvkxn6JiDLeH-R_KPi11zE0KusZkmKjA"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
