@@ -36,7 +36,7 @@ const Navbar = () => {
             <span>+923480114527</span>
           </div>
           <div className="flex items-center gap-4 ">
-            <span>info@claimsalignsolutions.com</span>
+            <span>info@revenuealignsolutions.com</span>
             <span>|</span>
             <span className="flex ">Taxas USA</span>
           </div>
@@ -49,7 +49,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center  text-xl font-semibold text-[#14124B]">
             <Link href={"/"}>
-              Claims<span className="text-[#3F50B5]">Align</span>Solutions
+              Revenue<span className="text-[#3F50B5]">Align</span>Solutions
             </Link>
           </div>
 

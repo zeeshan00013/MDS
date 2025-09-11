@@ -5,28 +5,28 @@ import { FaChevronDown } from "react-icons/fa";
 const faqs = [
   {
     question:
-      "What makes ClaimAlign Solutions different from other medical billing companies?",
+      "What makes RevenueAlign Solutions different from other medical billing companies?",
     answer:
-      "At ClaimAlign Solutions, we provide end-to-end revenue cycle management solutions tailored to your specialty. Our team focuses on maximizing reimbursements and reducing claim denials.",
+      "At RevenueAlign Solutions, we provide end-to-end revenue cycle management solutions tailored to your specialty. Our team focuses on maximizing reimbursements and reducing claim denials.",
   },
   {
-    question: "How does ClaimAlign Solutions help reduce claim denials?",
+    question: "How does RevenueAlign Solutions help reduce claim denials?",
     answer:
       "We use advanced coding, thorough claim scrubbing, and follow-up processes to minimize errors. Our experts track every claim until payment is received.",
   },
   {
-    question: "Does ClaimAlign Solutions work with all medical specialties?",
+    question: "Does RevenueAlign Solutions work with all medical specialties?",
     answer:
       "Yes. We support a wide range of specialties including cardiology, orthopedics, neurology, primary care, and more.",
   },
   {
     question:
-      "Can ClaimAlign Solutions integrate with our existing EHR/EMR system?",
+      "Can RevenueAlign Solutions integrate with our existing EHR/EMR system?",
     answer:
       "Absolutely. Our billing solutions are designed to seamlessly integrate with most major EHR/EMR systems to streamline workflows.",
   },
   {
-    question: "Is patient data safe with ClaimAlign Solutions?",
+    question: "Is patient data safe with RevenueAlign Solutions?",
     answer:
       "Yes, data security is our top priority. We comply with HIPAA regulations and implement advanced data protection measures to safeguard patient information.",
   },
@@ -44,7 +44,7 @@ export default function Faq() {
       <div className="max-w-4xl mx-auto">
         {/* Heading */}
         <h2 className="text-2xl md:text-3xl font-medium text-center text-[#362d7e] mb-10">
-          Claims Align Solutions – Frequently Asked Questions
+          Revenue Align Solutions – Frequently Asked Questions
         </h2>
 
         {/* FAQ List */}

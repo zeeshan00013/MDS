@@ -1,5 +1,5 @@
 export async function GET() {
-  const baseUrl = "https://www.claimsalignsolutions.com";
+  const baseUrl = "https://www.revenuealignsolutions.com";
   const staticRoutes = [
     "",
     "about",

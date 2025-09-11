@@ -92,7 +92,7 @@ export default function RevenueCycleManagementPage() {
           <div className="relative z-10 max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
             <div className="flex-1">
               <h1 className="text-3xl md:text-4xl font-medium leading-tight mb-6 max-w-3xl">
-                Claims Align Solutions – Revenue Cycle Management Solutions for
+                Revenue Align Solutions – Revenue Cycle Management Solutions for
                 Maximum Reimbursement
               </h1>
               <p className="text-lg mb-6 max-w-lg">
@@ -154,10 +154,10 @@ export default function RevenueCycleManagementPage() {
         {/* Intro Section */}
         <section className="max-w-7xl mx-auto text-center items-center gap-10 mb-20 px-6">
           <h2 className="text-3xl font-semibold text-[#362d7e] mb-4">
-            Complete Revenue Cycle Management by Claims Align Solutions
+            Complete Revenue Cycle Management by Revenue Align Solutions
           </h2>
           <p className="mb-4">
-            <strong>Claims Align Solutions</strong> handles the entire revenue
+            <strong>Revenue Align Solutions</strong> handles the entire revenue
             cycle—from patient registration to payment posting—ensuring faster
             collections and cleaner claims.
           </p>
@@ -234,7 +234,7 @@ export default function RevenueCycleManagementPage() {
             Our RCM Solutions
           </p>
           <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-[#362d7e] w-4/6 text-center">
-            Why Practices Trust Claims Align Solutions with Their Revenue Cycle
+            Why Practices Trust Revenue Align Solutions with Their Revenue Cycle
           </h2>
           <p className="text-center max-w-3xl mx-auto mb-12 text-gray-700">
             We bring expertise, transparency, and efficiency to every part of

@@ -98,7 +98,7 @@ export default function MedicalBillingPage() {
             {/* Left Section */}
             <div className="flex-1 z-10">
               <h1 className="text-3xl md:text-4xl font-medium leading-tight mb-6 max-w-3xl">
-                Claims Align Solutions – Revolutionizing Medical Billing with
+                Revenue Align Solutions – Revolutionizing Medical Billing with
                 Precision & Trust
               </h1>
               <p className="text-lg mb-6 max-w-lg">
@@ -168,7 +168,7 @@ export default function MedicalBillingPage() {
               Medical Billing Services Tailored for Healthcare Providers
             </h2>
             <p className="mb-4">
-              At <strong>Claims Align Solutions</strong>, we understand the
+              At <strong>Revenue Align Solutions</strong>, we understand the
               financial backbone of any medical practice lies in accurate and
               timely billing. Our team of certified billers and coders
               streamline your entire billing workflow – from claim creation to
@@ -188,7 +188,7 @@ export default function MedicalBillingPage() {
 
         <section className="max-w-7xl mx-auto mb-20">
           <h2 className="text-3xl font-medium text-[#362d7e] mb-6 text-center">
-            Why Choose Claims Align Solutions for Your Medical Billing?
+            Why Choose Revenue Align Solutions for Your Medical Billing?
           </h2>
           <div className="flex justify-center">
             <div className="grid md:grid-cols-3 gap-8 text-gray-800 w-full max-w-6xl mt-5 px-2">
@@ -252,7 +252,7 @@ export default function MedicalBillingPage() {
             What Do We Offer
           </p>
           <h2 className="text-2xl md:text-3xl font-semibold  mb-4 text-[#362d7e] w-4/6 text-center">
-            Claims Align Solutions' Top Rated Billing Consultancy Group Is Here
+            Revenue Align Solutions' Top Rated Billing Consultancy Group Is Here
             for Medical Billing Help
           </h2>
           <p className="text-center max-w-3xl mx-auto mb-12 text-gray-700">
@@ -324,8 +324,8 @@ export default function MedicalBillingPage() {
             Ready to Maximize Your Practice Revenue?
           </h2>
           <p className="mb-6 max-w-2xl mx-auto">
-            Book a free consultation with our billing experts and see how Claims
-            Align Solutions can transform your revenue cycle.
+            Book a free consultation with our billing experts and see how
+            Revenue Align Solutions can transform your revenue cycle.
           </p>
           <a
             href="/book-appointment"

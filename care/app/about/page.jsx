@@ -10,10 +10,10 @@ export default function AboutPage() {
     <div className="bg-white text-gray-800  py-16">
       <div className=" bg-[#110f3e] mx-auto text-center px-6 py-4">
         <h1 className="text-3xl md:text-4xl font-medium text-white leading-tight mb-6 ">
-          About Claims ALign Solutions
+          About Revenue ALign Solutions
         </h1>
         <p className="text-lg text-gray-100">
-          Claims Align Solutions is a trusted healthcare service provider
+          Revenue Align Solutions is a trusted healthcare service provider
           offering end-to-end solutions for medical billing, revenue cycle
           management, credentialing, coding, and practice optimization. Our
           services are designed to help healthcare providers operate more
@@ -52,7 +52,7 @@ export default function AboutPage() {
 
       <div className="max-w-5xl mx-auto mt-20 px-6">
         <h2 className="text-3xl font-bold text-center text-[#3d2d7d] mb-10">
-          Why Choose Claims Align Solutions ?
+          Why Choose Revenue Align Solutions ?
         </h2>
         <div className="grid md:grid-cols-3 gap-8 text-center">
           <div className="p-6 border rounded-lg shadow hover:shadow-md transition">

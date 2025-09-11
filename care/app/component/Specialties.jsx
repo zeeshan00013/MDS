@@ -36,11 +36,11 @@ export default function Specialties() {
         Medical Specialties Covered by
         <span className="text-[#362d7e]">
           {" "}
-          ClaimsAlignSolutions{" "}
+          RevenueAlignSolutions{" "}
         </span> <br /> with Expert Billing Services
       </h2>
       <p className="text-gray-600 max-w-2xl mx-auto mb-12">
-        (CAS) delivers comprehensive medical billing services for a broad
+        (RAS) delivers comprehensive medical billing services for a broad
         spectrum of specialties, ranging from primary care to surgical centers,
         with a focus on small and mid-sized practices.
       </p>

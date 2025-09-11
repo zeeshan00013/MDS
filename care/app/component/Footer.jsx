@@ -55,7 +55,7 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
           <ul className="space-y-3 text-lg">
             <li className="flex items-start gap-2">
-              <CiMail className="mt-1 text-lg" /> info@claimsalignsolutions.com
+              <CiMail className="mt-1 text-lg" /> info@revenuealignsolutions.com
             </li>
             <li className="flex items-start gap-2">
               <MdPhone className="mt-1 text-lg" /> +923480114527

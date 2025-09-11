@@ -92,8 +92,8 @@ export default function DigitalMarketingPage() {
           <div className="relative z-10 max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
             <div className="flex-1">
               <h1 className="text-3xl md:text-4xl font-medium leading-tight mb-6 max-w-3xl">
-                Claims Align Solutions – Digital Marketing Solutions for Medical
-                Practices
+                Revenue Align Solutions – Digital Marketing Solutions for
+                Medical Practices
               </h1>
               <p className="text-lg mb-6 max-w-lg">
                 Grow your practice with Claims Align Solutions'
@@ -158,7 +158,7 @@ export default function DigitalMarketingPage() {
             Targeted Digital Marketing for Healthcare Professionals
           </h2>
           <p className="mb-4">
-            <strong>Claims Align Solutions</strong> provides comprehensive
+            <strong>Revenue Align Solutions</strong> provides comprehensive
             digital marketing services designed to grow your patient base,
             enhance online presence, and boost practice revenue.
           </p>
@@ -175,7 +175,7 @@ export default function DigitalMarketingPage() {
         {/* Why Us Section */}
         <section className="max-w-7xl mx-auto mb-20">
           <h2 className="text-3xl font-medium text-[#362d7e] mb-6 text-center">
-            Why Choose Claims Align Solutions for Digital Marketing?
+            Why Choose Revenue Align Solutions for Digital Marketing?
           </h2>
           <div className="flex justify-center">
             <div className="grid md:grid-cols-3 gap-8 text-gray-800 w-full max-w-6xl mt-5 px-2">
@@ -236,7 +236,7 @@ export default function DigitalMarketingPage() {
             Our Digital Marketing Services
           </p>
           <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-[#362d7e] w-4/6 text-center">
-            Why Healthcare Providers Choose Claims Align Solutions for Online
+            Why Healthcare Providers Choose Revenue Align Solutions for Online
             Growth
           </h2>
           <p className="text-center max-w-3xl mx-auto mb-12 text-gray-700">
