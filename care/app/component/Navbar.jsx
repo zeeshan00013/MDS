@@ -31,10 +31,6 @@ const Navbar = () => {
       {/* Top Bar */}
       <div className="bg-[#110f3e] text-white">
         <div className="px-6 py-4 flex md:flex-row flex-col justify-between items-center  max-w-7xl mx-auto">
-          <div className="flex items-center gap-2">
-            <FaPhoneAlt className="text-white" />
-            <span>+923480114527</span>
-          </div>
           <div className="flex items-center gap-4 ">
             <span>info@revenuealignsolutions.com</span>
             <span>|</span>

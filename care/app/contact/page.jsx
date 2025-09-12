@@ -84,14 +84,6 @@ export default function Contact() {
           </div>
 
           {/* Phone */}
-          <div className="flex items-center space-x-3 text-gray-700">
-            <FaPhone className="text-[#362d7e]" />
-            <span>+923480114527</span>
-          </div>
-          <div className="flex items-center space-x-3 text-gray-700">
-            <FaPhone className="text-[#362d7e]" />
-            <span>+923480114527</span>
-          </div>
 
           {/* Locations */}
           <h4 className="text-lg font-bold">Our Locations</h4>

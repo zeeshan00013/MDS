@@ -66,9 +66,7 @@ const Footer = () => {
             <li className="flex items-start gap-2">
               <CiMail className="mt-1 text-lg" /> info@revenuealignsolutions.com
             </li>
-            <li className="flex items-start gap-2">
-              <MdPhone className="mt-1 text-lg" /> +923480114527
-            </li>
+
             <li className="flex items-start gap-2">
               <MdLocationOn className="mt-1 text-lg" />
               Texas USA
