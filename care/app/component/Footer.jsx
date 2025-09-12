@@ -3,6 +3,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
 import { CiMail } from "react-icons/ci";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -10,9 +11,9 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Company Info */}
         <div>
-          <h2 className="text-3xl font-bold mb-2">Claims Align Solutions </h2>
+          <h2 className="text-3xl font-bold mb-2">Revenue Align Solutions </h2>
           <p className="text-sm leading-6 mt-4">
-            Claims Align Solutions (CAS) USA LLC is a leading healthcare
+            Revenue Align Solutions (CAS) USA LLC is a leading healthcare
             services provider, managing numerous medical practices with
             compassionate, skilled professionals utilizing the latest tools and
             techniques. Our goal is to maintain the highest standards by
@@ -30,12 +31,20 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">Our Services</h3>
           <ul className="space-y-2 text-lg">
-            <li>Medical Billing Services</li>
-            <li>Medical Coding Services</li>
-            <li>Medical Credentialing Services</li>
-            <li>Patient Billing Services</li>
-            <li>Front Office Management</li>
-            <li>Providers Quality Payment Program</li>
+            <li>
+              <Link href={"/medical-billing"}>Medical Billing Services</Link>
+            </li>
+            <li>
+              <Link href={"/medical-coding"}>Medical Coding Services</Link>
+            </li>{" "}
+            <li>
+              <Link href={"/Medical Credentialing"}>
+                Medical Credentialing Services
+              </Link>
+            </li>{" "}
+            <li>
+              <Link href={"/virtual-assistance"}>Virtual Assistance</Link>
+            </li>{" "}
           </ul>
         </div>
 
@@ -71,7 +80,7 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className="mt-10 border-t border-white/30 pt-4 text-center text-sm flex flex-col items-center md:flex-row md:justify-between">
         <p className="mt-2 md:mt-0">
-          © Claims Align Solutions USA LLC. All rights reserved.
+          © Revenue Align Solutions USA LLC. All rights reserved.
         </p>
       </div>
     </footer>
