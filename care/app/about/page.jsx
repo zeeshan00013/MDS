@@ -4,7 +4,17 @@ import Image from "next/image";
 import { FaUserMd, FaHeartbeat, FaLaptopMedical } from "react-icons/fa";
 import { MdOutlinePeopleAlt } from "react-icons/md";
 import { BiTargetLock } from "react-icons/bi";
-
+export const metadata = {
+  title: "About Us | Revenue Align Solutions",
+  description:
+    "Learn more about Revenue Align Solutions – expert medical billing and RCM services across the USA.",
+  keywords:
+    "Medical Billing, Revenue Cycle Management, RCM Services, Healthcare Billing, About Revenue Align Solutions",
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://www.revenuealignsolutions.com/about",
+  },
+};
 export default function AboutPage() {
   return (
     <div className="bg-white text-gray-800  py-16">
