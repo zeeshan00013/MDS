@@ -28,12 +28,11 @@ export const metadata = {
     "US Healthcare Billing Services",
   ],
   title: {
-    default:
-      "Revenue  Align Solutions - Expert Medical Billing & RCM Services USA",
+    default: "Revenue Align Solutions | Medical Billing & RCM Experts USA",
     template: "%s | Revenue  Align Solutions",
   },
   description:
-    "Revenue  Align Solutions offers professional medical billing and revenue cycle management (RCM) services across the USA. Streamline billing, reduce denials, and maximize collections with our expert team.",
+    "Revenue Align Solutions offers expert medical billing & RCM services in the USA. Reduce denials, boost revenue, and streamline your billing process.",
   author: "Revenue  Align Solutions",
 
   openGraph: {
