@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import { FaUserMd, FaHeartbeat, FaLaptopMedical } from "react-icons/fa";
 import { MdOutlinePeopleAlt } from "react-icons/md";
