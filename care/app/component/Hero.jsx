@@ -2,6 +2,7 @@ import Image from "next/image";
 import doctorImage from "../Images/drhero.webp"; // Replace with your image
 import { FaStar, FaUserMd } from "react-icons/fa";
 import { MdLocalHospital } from "react-icons/md";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -53,9 +54,11 @@ const Hero = () => {
 
           {/* CTA + Google Rating */}
           <div className="flex flex-col sm:flex-row sm:items-center gap-4 ">
-            <button className="bg-[#362d7e] text-white px-5 py-2 rounded-lg hover:bg-[#2e3b8f] transition-all cursor-pointer shadow-md">
-              Book An Appointment
-            </button>
+            <Link href={"/contact"}>
+              <button className="bg-[#362d7e] text-white px-5 py-2 rounded-lg hover:bg-[#2e3b8f] transition-all cursor-pointer shadow-md">
+                Book An Appointment
+              </button>
+            </Link>
           </div>
         </div>
 

@@ -36,7 +36,7 @@ export default function Specialties() {
         Medical Specialties Covered by
         <span className="text-[#362d7e]">
           {" "}
-          RevenueAlignSolutions{" "}
+          Revenue Align Solutions{" "}
         </span> <br /> with Expert Billing Services
       </h2>
       <p className="text-gray-600 max-w-2xl mx-auto mb-12">

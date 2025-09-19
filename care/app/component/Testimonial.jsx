@@ -83,7 +83,7 @@ export default function Testimonial() {
               key={index}
               onClick={() => setCurrent(index)}
               className={`w-3 h-3 rounded-full cursor-pointer ${
-                current === index ? "bg-[#60b6e3]" : "bg-gray-300"
+                current === index ? "bg-[#36025d]" : "bg-gray-300"
               }`}
             ></button>
           ))}
