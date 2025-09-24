@@ -8,6 +8,8 @@ import {
   FaTimes,
 } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
+import logo from "../Images/mainlogo.png";
 
 const services = [
   { title: "Medical Billing", path: "medical-billing" },
@@ -45,7 +47,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center  text-xl font-semibold text-[#14124B]">
             <Link href={"/"}>
-              Revenue<span className="text-[#3F50B5]">Align</span>Solutions
+              <Image src={logo} height={60} alt="revenue align solutions" />
             </Link>
           </div>
 

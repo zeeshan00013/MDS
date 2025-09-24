@@ -4,6 +4,8 @@ import { FaXTwitter } from "react-icons/fa6";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
 import { CiMail } from "react-icons/ci";
 import Link from "next/link";
+import Image from "next/image";
+import logo from "../Images/logofooter.png";
 
 const Footer = () => {
   return (
@@ -11,7 +13,13 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Company Info */}
         <div>
-          <h2 className="text-3xl font-bold mb-2">Revenue Align Solutions </h2>
+          <div className="flex items-center  gap-1">
+            <Image src={logo} alt="revenuw align solutions " />
+            <div className="hidden md:block">
+              <p>REVENUW ALIGN</p>
+              <p>SOLUTIONS</p>
+            </div>
+          </div>
           <p className="text-sm leading-6 mt-4">
             Revenue Align Solutions (CAS) USA LLC is a leading healthcare
             services provider, managing numerous medical practices with
