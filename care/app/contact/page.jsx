@@ -134,11 +134,7 @@ export default function Contact() {
           <h4 className="text-lg font-bold">Our Locations</h4>
           <div className="flex items-start space-x-3 text-gray-700">
             <FaMapMarkerAlt className="text-[#362d7e] mt-1" />
-            <span>Texas, USA</span>
-          </div>
-          <div className="flex items-start space-x-3 text-gray-700">
-            <FaMapMarkerAlt className="text-[#362d7e] mt-1" />
-            <span>California, USA</span>
+            <span>13740 NHighway 183 Ste L2 #456 Austin, TX 78750 USA</span>
           </div>
         </div>
       </div>

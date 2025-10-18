@@ -70,16 +70,16 @@ const Footer = () => {
         {/* Contact Us */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-          <ul className="space-y-3 text-lg">
-            <li className="flex items-start gap-2">
-              <CiMail className="mt-1 text-lg" /> info@revenuealignsolutions.com
-            </li>
+          <div className="space-y-3 text-lg">
+            <div className="space-y-1">
+              <CiMail className=" " /> info@revenuealignsolutions.com
+            </div>
 
-            <li className="flex items-start gap-2">
-              <MdLocationOn className="mt-1 text-lg" />
-              Texas USA
-            </li>
-          </ul>
+            <div className="space-y-1">
+              <MdLocationOn className="mt-1 " />
+              13740 NHighway 183 Ste L2 #456 Austin, TX 78750 USA
+            </div>
+          </div>
         </div>
       </div>
 
