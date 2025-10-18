@@ -127,10 +127,7 @@ export default function Contact() {
             <FaEnvelope className="text-[#362d7e]" />
             <span>info@revenuealignsolutions.com</span>
           </div>
-          <div className="flex items-center space-x-3 text-gray-700">
-            <FaPhone className="text-[#362d7e]" />
-            <span>+1 (234) 567-890</span>
-          </div>
+
           <h4 className="text-lg font-bold">Our Locations</h4>
           <div className="flex items-start space-x-3 text-gray-700">
             <FaMapMarkerAlt className="text-[#362d7e] mt-1" />
