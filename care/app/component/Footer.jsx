@@ -77,7 +77,7 @@ const Footer = () => {
 
             <div className="space-y-1">
               <MdLocationOn className="mt-1 " />
-              13740 NHighway 183 Ste L2 #456 Austin, TX 78750 USA
+              13740 N Highway 183 Ste L2 #456 Austin, TX 78750 USA
             </div>
           </div>
         </div>

@@ -37,7 +37,7 @@ const Navbar = () => {
             <span>info@revenuealignsolutions.com</span>
             <span>|</span>
             <span className="flex ">
-              13740 NHighway 183 Ste L2 #456 Austin, TX 78750 USA
+              13740 N Highway 183 Ste L2 #456 Austin, TX 78750 USA
             </span>
           </div>
         </div>
