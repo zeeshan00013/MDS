@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
           Privacy Policy
         </h1>
 
-        <p className="text-base md:text-lg text-gray-700 mb-6">
+        <p className="text-base md:text-lg text-gray-700 mb-8">
           At <strong>Revenue Align Solutions</strong>, we are committed to
           safeguarding your privacy. This policy explains how we collect,
           manage, and protect any personal or medical data you share with us, in
