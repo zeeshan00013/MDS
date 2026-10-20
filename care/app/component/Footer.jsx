@@ -1,7 +1,7 @@
 "use client";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
+import { MdLocationOn, MdPhone } from "react-icons/md";
 import { CiMail } from "react-icons/ci";
 import Link from "next/link";
 import Image from "next/image";
@@ -60,10 +60,26 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">About Us</h3>
           <ul className="space-y-2 text-lg">
-            <li>Our Company</li>
-            <li>Our Team</li>
-            <li>Terms and Conditions</li>
-            <li>Privacy Policy</li>
+            <li>
+              <Link className="hover:text-indigo-200 transition-colors" href="/our-company">
+                Our Company
+              </Link>
+            </li>
+            <li>
+              <Link className="hover:text-indigo-200 transition-colors" href="/our-team">
+                Our Team
+              </Link>
+            </li>
+            <li>
+              <Link className="hover:text-indigo-200 transition-colors" href="/terms-and-conditions">
+                Terms and Conditions
+              </Link>
+            </li>
+            <li>
+              <Link className="hover:text-indigo-200 transition-colors" href="/privacy-policy">
+                Privacy Policy
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -74,6 +90,14 @@ const Footer = () => {
             <div className="space-y-1">
               <CiMail className=" " /> info@revenuealignsolutions.com
             </div>
+
+            <a
+              href="tel:+15125202375"
+              className="flex items-center gap-2 hover:text-indigo-200 transition-colors"
+            >
+              <MdPhone />
+              (512) 520-2375
+            </a>
 
             <div className="space-y-1">
               <MdLocationOn className="mt-1 " />

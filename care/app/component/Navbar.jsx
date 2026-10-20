@@ -36,6 +36,14 @@ const Navbar = () => {
           <div className="flex items-center gap-4 ">
             <span>info@revenuealignsolutions.com</span>
             <span>|</span>
+            <a
+              href="tel:+15125202375"
+              className="flex items-center gap-2 hover:text-indigo-200 transition-colors"
+            >
+              <FaPhoneAlt className="text-sm" />
+              (512) 520-2375
+            </a>
+            <span>|</span>
             <span className="flex ">
               13740 N Highway 183 Ste L2 #456 Austin, TX 78750 USA
             </span>
@@ -102,18 +110,18 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/about"
+                href="/our-company"
                 className="hover:text-[#3F50B5] cursor-pointer"
               >
-                About
+                Our Company
               </Link>
             </li>
             <li>
               <Link
-                href="/privacy"
+                href="/privacy-policy"
                 className="hover:text-[#3F50B5] cursor-pointer"
               >
-                Privacy
+                Privacy Policy
               </Link>
             </li>
           </ul>
@@ -136,10 +144,10 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              href="/about"
+              href="/our-company"
               className="block hover:text-[#3F50B5] cursor-pointer"
             >
-              About
+              Our Company
             </Link>
             {/* Services Dropdown */}
             <div>

@@ -10,8 +10,12 @@ export async function GET() {
     "medical-billing",
     "medical-coding",
     "medical-credentialing",
+    "our-company",
+    "our-team",
+    "privacy-policy",
     "prior-authorization",
-    "reveneu-cycle-management",
+    "revenue-cycle-management",
+    "terms-and-conditions",
     "virtual-assistance",
   ];
 
