@@ -11,99 +11,96 @@ export default function PrivacyPolicy() {
         </h1>
 
         <p className="text-base md:text-lg text-gray-700 mb-8">
-          At <strong>Revenue Align Solutions</strong>, we are committed to
-          safeguarding your privacy. This policy explains how we collect,
-          manage, and protect any personal or medical data you share with us, in
-          full compliance with HIPAA and other regulatory standards.
+          At <strong>Revenue Align Solutions</strong>, your privacy is important
+          to us. This Privacy Policy outlines how we collect, use, store, and
+          protect your personal and health-related data in accordance with
+          industry standards, including HIPAA compliance guidelines.
         </p>
 
         <h2 className="text-2xl font-semibold text-[#21204A] mt-10 mb-4">
-          1. Data We Gather
+          1. Information We Collect
         </h2>
         <ul className="list-disc pl-5 text-gray-700 space-y-2">
-          <li>Your contact details (name, email address, phone number)</li>
+          <li>Personal identification information (Name, Email, Phone Number)</li>
           <li>
-            Medical billing details including Protected Health Information (PHI)
+            Protected Health Information (PHI) necessary for billing services
           </li>
-          <li>Insurance-related documentation</li>
-          <li>Site usage data, cookies, and traffic analytics</li>
+          <li>Insurance and provider information</li>
+          <li>Usage data from our website (analytics, cookies, etc.)</li>
         </ul>
 
         <h2 className="text-2xl font-semibold text-[#21204A] mt-10 mb-4">
-          2. Purpose of Data Collection
+          2. How We Use Your Information
         </h2>
         <ul className="list-disc pl-5 text-gray-700 space-y-2">
-          <li>To deliver effective billing and revenue cycle services</li>
-          <li>
-            To stay in touch for support and service-related communication
-          </li>
-          <li>To comply with legal and regulatory obligations</li>
-          <li>To improve website performance and security</li>
+          <li>To provide accurate medical billing and RCM services</li>
+          <li>To contact you for administrative and support purposes</li>
+          <li>To ensure compliance with federal and state regulations</li>
+          <li>To enhance the functionality and security of our website</li>
         </ul>
 
         <h2 className="text-2xl font-semibold text-[#21204A] mt-10 mb-4">
-          3. Keeping Your Data Safe
+          3. Data Protection & Security
         </h2>
         <p className="text-gray-700 mb-4">
-          We use advanced security systems and strict access protocols to
-          protect your personal and health information from unauthorized access
-          or misuse. All digital records are encrypted and handled with care.
+          We implement robust physical, technical, and administrative safeguards
+          to protect your data from unauthorized access, disclosure, or misuse.
+          All electronic PHI is encrypted and stored securely.
         </p>
 
         <h2 className="text-2xl font-semibold text-[#21204A] mt-10 mb-4">
-          4. When We Share Information
+          4. Sharing Your Information
         </h2>
         <p className="text-gray-700 mb-4">
-          We do not sell or rent your personal data. However, we may share
-          necessary information with:
+          We never sell or rent your personal or health information. Data may be
+          shared with:
         </p>
         <ul className="list-disc pl-5 text-gray-700 space-y-2">
-          <li>
-            Healthcare professionals directly involved in your billing process
-          </li>
-          <li>Insurance providers for claims and verification</li>
-          <li>Government agencies or courts when legally required</li>
-          <li>Third-party service providers under confidentiality contracts</li>
+          <li>Authorized healthcare providers</li>
+          <li>Insurance companies (for claims processing)</li>
+          <li>Government or legal authorities when required by law</li>
+          <li>Our trusted third-party vendors under strict confidentiality</li>
         </ul>
 
         <h2 className="text-2xl font-semibold text-[#21204A] mt-10 mb-4">
-          5. Your Privacy Rights
+          5. Your Rights
         </h2>
         <ul className="list-disc pl-5 text-gray-700 space-y-2">
-          <li>Request access to your stored information</li>
-          <li>Ask for corrections to inaccurate details</li>
-          <li>Request data removal under applicable laws</li>
+          <li>Right to access and request a copy of your data</li>
+          <li>Right to correct inaccurate or outdated information</li>
+          <li>Right to request data deletion under certain conditions</li>
         </ul>
 
         <h2 className="text-2xl font-semibold text-[#21204A] mt-10 mb-4">
-          6. Cookies & Website Analytics
+          6. Cookies & Analytics
         </h2>
         <p className="text-gray-700 mb-4">
-          We use cookies and analytics tools like Google Analytics to better
-          understand how visitors interact with our website. You can control
-          cookie usage through your browser settings.
+          Our site uses cookies and analytics tools (like Google Analytics) to
+          understand visitor behavior and improve performance. You may disable
+          cookies in your browser settings.
         </p>
 
         <h2 className="text-2xl font-semibold text-[#21204A] mt-10 mb-4">
-          7. Policy Updates
+          7. Updates to This Policy
         </h2>
         <p className="text-gray-700 mb-4">
-          We may revise this policy periodically. Any changes will be posted
-          here with a new effective date. Please review this page regularly to
-          stay informed.
+          We may update this policy from time to time. Updates will be posted
+          here with a revised effective date. We encourage you to review this
+          page regularly.
         </p>
 
         <h2 className="text-2xl font-semibold text-[#21204A] mt-10 mb-4">
-          8. Contact Information
+          8. Contact Us
         </h2>
         <p className="text-gray-700">
-          If you have questions or concerns regarding this Privacy Policy,
-          please reach out:
+          If you have any questions regarding this Privacy Policy or how we
+          handle your information, please contact us at:
         </p>
         <p className="mt-2 text-gray-700 font-medium">
           Email: info@revenuealignsolutions.com
         </p>
-        <p className="text-gray-700 font-medium">Phone: xxx0202020</p>
+        <p className="text-gray-700 font-medium">Phone: (512) 520-2375
+</p>
       </section>
     </main>
   );
